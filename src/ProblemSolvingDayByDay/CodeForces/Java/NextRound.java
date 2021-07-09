@@ -4,20 +4,27 @@ import java.util.Scanner;
 
 public class NextRound {
     public static void main(String[] args) {
-        int pNm, k, userInput, count = 0;
+        int numberOfParticipant, kThPlace, score, minScore = 0;
         Scanner sc = new Scanner(System.in);
-        pNm = sc.nextInt();
-        k = sc.nextInt();
+        numberOfParticipant = sc.nextInt();
+        kThPlace = sc.nextInt();
+        int[] dataScore = new int[numberOfParticipant + 1];
 
-        if (pNm >= k) {
-            for (int i = 0; i < pNm; i++) {
-                userInput = sc.nextInt();
-                //System.out.printf("%d ", userInput);
-                if (userInput > k || userInput == 1) {
-                    count++;
-                }
+        for (int i = 1; i <= numberOfParticipant; i++) {
+            score = sc.nextInt();
+            dataScore[i] = score;
+            System.out.printf("%d ",dataScore[i]);
+            if (i == kThPlace) {
+                minScore = score;
             }
-            System.out.println("\n" + count);
         }
+
+        int count = 0;
+        for (int i = 1; i <= numberOfParticipant; i++) {
+            if (dataScore[i] >= minScore && minScore > 0) {
+                count++;
+            }
+        }
+        System.out.println(count);
     }
 }
