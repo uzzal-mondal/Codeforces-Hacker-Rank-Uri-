@@ -1,4 +1,4 @@
-package ProblemSolvingDayByDay.Array;
+package ProblemSolvingDayByDay.Array.BasicArray;
 
 import java.util.Scanner;
 

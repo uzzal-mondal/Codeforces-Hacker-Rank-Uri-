@@ -1,4 +1,4 @@
-package ProblemSolvingDayByDay.Array;
+package ProblemSolvingDayByDay.Array.BasicArray;
 
 public class BasicArray {
     //array definition. - same type of collection of variable.
