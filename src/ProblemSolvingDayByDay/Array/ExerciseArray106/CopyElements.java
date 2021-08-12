@@ -23,7 +23,7 @@ public class CopyElements {
             System.out.printf("%d ", numOfArray[i]);
         }
 
-       // System.out.println("Second elements store Copy of Array first elements :");
+        // System.out.println("Second elements store Copy of Array first elements :");
         for (int i = 0; i < num; i++) {
             copyOfArray[i] = numOfArray[i];
         }

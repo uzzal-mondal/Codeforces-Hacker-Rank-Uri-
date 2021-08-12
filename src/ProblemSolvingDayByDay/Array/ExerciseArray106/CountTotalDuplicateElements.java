@@ -7,7 +7,7 @@ public class CountTotalDuplicateElements {
         int[] array1 = new int[100];
         int[] array2 = new int[100];
         int[] array3 = new int[100];
-        int inputNum, dpValue = 0, mm = 1;
+        int inputNum, count = 0, dpValue = 1;
 
         System.out.print("Count total number of duplicate elements in an array : ");
         Scanner sc = new Scanner(System.in);
@@ -30,24 +30,23 @@ public class CountTotalDuplicateElements {
         for (int i = 0; i < inputNum; i++) {
             for (int j = 0; j < inputNum; j++) {
                 if (array1[i] == array2[j]) {
-                    array3[j] = mm;
+                    array3[j] = dpValue;
                     System.out.printf("i: %d  -  j: %d  = Array3 : %d\n", i, j, array3[j]);
-                    mm++;
-                    System.out.println("MM : " + mm);
-
+                    dpValue++;
+                    System.out.println("MM : " + dpValue);
                 }
             }
-            mm = 1;
-            System.out.println("second mm : " + mm);
+            dpValue = 1;
+            System.out.println("second dpValue : " + dpValue);
         }
 
-        /*----------prints the array---------*/
+        /*----------prints the duplicate array---------*/
         for (int i = 0; i < inputNum; i++) {
             if (array3[i] == 2) {
-                dpValue++;
+                System.out.printf("Next Array3  : %d\n", array3[i]);
+                count++;
             }
         }
-        System.out.println("The total number of duplicate elements found in the array is: " + dpValue);
-
+        System.out.println("Total number of duplicate elements found in array: " + count);
     }
 }
