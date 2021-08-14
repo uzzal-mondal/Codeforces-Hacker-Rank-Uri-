@@ -2,7 +2,7 @@ package ProblemSolvingDayByDay.Array.ExerciseArray106.marge;
 
 import java.util.Scanner;
 
-public class ArrayMargeEX {
+public class ArrayMargeFirstEX {
     public static void main(String[] args) {
         /* first input 4 = 1, 2, 3, 4*/
         /* second input 4 = 1, 2, 3, 4*/
@@ -20,24 +20,26 @@ public class ArrayMargeEX {
         for (; i < inputNum; i++) {
             System.out.printf("Elements [%d] : ", i);
             array1[i] = sc.nextInt();
-            arrayMarge[i] = array1[i];
-            //System.out.printf("Array Merge : %d\n", arrayMarge[i]);
-           /* k = i;
-            System.out.println("K line : " + k);*/
+            arrayMarge[i] = array1[i];  //index 0 - ele 1.....
+           /* System.out.printf("Array Merge : %d\n", arrayMarge[i]);
+            k = i; //0 , 1 , 2 , 3 , 4
+            System.out.println("K index by i : " + k);*/
         }
-        k = i; // 1, 2, 3, 4.
-        System.out.println("K : " + k);
+        k = i; // index - 0,1,2,3,4 ele - 5.
+        System.out.println("ele of K : " + k); // 5
+
+
 
         /*----------- input for second array----------*/
-        System.out.println("Enter your second array input : ");
+        System.out.println("\nEnter your second array input : ");
         for (i = 0; i < inputNum; i++) {
             System.out.printf("Elements [%d] : ", i);
-            // System.out.println("second K : " + k);
+            System.out.println("second K : " + k);
             array2[i] = sc.nextInt();
-            arrayMarge[k] = array2[i]; // k : 5, 6 , 7 , 8
-            //System.out.printf("Array Merge : %d\n", arrayMarge[i]);
+            arrayMarge[k] = array2[i];
+            System.out.printf("Array Merge : %d\n", arrayMarge[i]);
             k++;
-            //System.out.println("K print : " + k);
+            System.out.println("K print : " + k);
 
         }
 
@@ -48,7 +50,7 @@ public class ArrayMargeEX {
         }
 
 
-       /* *//*---------sorting the array..-------**//*
+        /* *//*---------sorting the array..-------**//*
         for ( q = 0; q < k; q++) {
             for (p = 0; p < k; p++) {
                 if (arrayMarge[p] > arrayMarge[p + 1]) {

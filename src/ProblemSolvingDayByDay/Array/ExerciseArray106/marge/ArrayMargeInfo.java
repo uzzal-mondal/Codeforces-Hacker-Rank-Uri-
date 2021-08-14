@@ -2,7 +2,7 @@ package ProblemSolvingDayByDay.Array.ExerciseArray106.marge;
 
 import java.util.Scanner;
 
-public class ArraySortedMarge {
+public class ArrayMargeInfo {
     public static void main(String[] args) {
 
         int[] arrayOne = new int[50];
