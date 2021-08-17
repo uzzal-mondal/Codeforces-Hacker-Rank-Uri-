@@ -32,8 +32,15 @@ public class UniQueElements {
             count = 0;
             for (j = 0; j < n; j++) {
                 System.out.printf("\ni : %d  - j: %d\n", i, j);
+                /**
+                 * index not equal then - true.
+                 */
                 if (i != j) {
+                    /**
+                     * element == element then execute..
+                     */
                     if (numOfArray[i] == numOfArray[j]) {
+                        /*---don't unique---*/
                         count++;
                     }
                 }

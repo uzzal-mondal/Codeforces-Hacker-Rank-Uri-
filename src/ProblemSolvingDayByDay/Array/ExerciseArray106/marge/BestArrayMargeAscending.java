@@ -2,11 +2,11 @@ package ProblemSolvingDayByDay.Array.ExerciseArray106.marge;
 
 import java.util.Scanner;
 
-public class BestArrayArrangeSorted {
+public class BestArrayMargeAscending {
     public static void main(String[] args) {
-        int[] array1 = new int[10];
-        int[] array2 = new int[10];
-        int[] arrayMarge = new int[10];
+        int[] array1 = new int[50];
+        int[] array2 = new int[50];
+        int[] arrayMarge = new int[50];
         int i, j, k, temp;
 
         System.out.print("Enter elements in size One : ");
@@ -20,6 +20,7 @@ public class BestArrayArrangeSorted {
             arrayMarge[i] = array1[i];
         }
         k = i;
+        System.out.println("first K elements: " + k);
 
         System.out.print("Enter elements in size Two : ");
         int size2 = sc.nextInt();
@@ -31,10 +32,12 @@ public class BestArrayArrangeSorted {
             arrayMarge[k] = array2[i];
             k++;
         }
+        System.out.println("second k elements:  = " + k);
 
         /*-------------array arrange -------------*/
         for (j = 0; j < k - 1; j++) {
             for (i = 0; i < k - 1; i++) {
+                System.out.printf("index [%d] : %d\n", i, arrayMarge[i]);
                 if (arrayMarge[i] > arrayMarge[i + 1]) {
                     temp = arrayMarge[i];
                     arrayMarge[i] = arrayMarge[i + 1];
@@ -43,7 +46,7 @@ public class BestArrayArrangeSorted {
             }
         }
 
-        System.out.println("Array ascending marge: ");
+        System.out.println("\nArray ascending marge: ");
         for (i = 0; i < k; i++) {
             System.out.printf("%d ", arrayMarge[i]);
         }
