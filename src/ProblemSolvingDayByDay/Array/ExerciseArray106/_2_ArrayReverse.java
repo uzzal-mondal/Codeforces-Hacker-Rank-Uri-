@@ -2,7 +2,7 @@ package ProblemSolvingDayByDay.Array.ExerciseArray106;
 
 import java.util.Scanner;
 
-public class ArrayReverse {
+public class _2_ArrayReverse {
     public static void main(String[] args) {
         int inputNum;
         int[] arrayOfNum = new int[10];

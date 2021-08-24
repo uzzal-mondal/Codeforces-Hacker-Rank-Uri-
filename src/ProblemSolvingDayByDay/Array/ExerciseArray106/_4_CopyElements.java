@@ -2,7 +2,7 @@ package ProblemSolvingDayByDay.Array.ExerciseArray106;
 
 import java.util.Scanner;
 
-public class CopyElements {
+public class _4_CopyElements {
     public static void main(String[] args) {
         //todo: copy elements to another array..:)
         int[] numOfArray = new int[10];

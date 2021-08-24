@@ -6,7 +6,7 @@ import java.util.Scanner;
  * frequency problem solving  - 08
  */
 
-public class FrequencyElement {
+public class _8_FrequencyElement {
     public static void main(String[] args) {
         int inputNum, i, j, count = 0;
         int[] array1 = new int[50];

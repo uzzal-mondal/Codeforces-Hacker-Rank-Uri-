@@ -2,7 +2,7 @@ package ProblemSolvingDayByDay.Array.ExerciseArray106;
 
 import java.util.Scanner;
 
-public class SumOfElementsArray {
+public class _3_SumOfElementsArray {
     public static void main(String[] args) {
 
         int inputNum, sum = 0;

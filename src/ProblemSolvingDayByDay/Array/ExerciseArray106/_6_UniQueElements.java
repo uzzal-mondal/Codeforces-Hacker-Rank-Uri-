@@ -2,7 +2,7 @@ package ProblemSolvingDayByDay.Array.ExerciseArray106;
 
 import java.util.Scanner;
 
-public class UniQueElements {
+public class _6_UniQueElements {
     public static void main(String[] args) {
 
         /*-----------Unique elements in array----------------*/

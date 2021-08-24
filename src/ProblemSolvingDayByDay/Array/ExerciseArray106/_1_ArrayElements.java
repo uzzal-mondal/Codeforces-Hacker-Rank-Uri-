@@ -2,7 +2,7 @@ package ProblemSolvingDayByDay.Array.ExerciseArray106;
 
 import java.util.Scanner;
 
-public class ArrayElements {
+public class _1_ArrayElements {
     public static void main(String[] args) {
         int[] numOfArray = new int[10];
         Scanner sc = new Scanner(System.in);

@@ -1,8 +1,8 @@
-package ProblemSolvingDayByDay.Array.ExerciseArray106.marge;
+package ProblemSolvingDayByDay.Array.ExerciseArray106;
 
 import java.util.Scanner;
 
-public class BestArrayMargeDescending {
+public class _7_BestArrayMargeDescending {
     public static void main(String[] args) {
         int[] array1 = new int[50];
         int[] array2 = new int[50];
