@@ -1,4 +1,4 @@
-package ProblemSolvingDayByDay.Array.ExerciseArray106;
+package ProblemSolvingDayByDay.Array.ExerciseArray106.A_106;
 
 import java.util.Scanner;
 
