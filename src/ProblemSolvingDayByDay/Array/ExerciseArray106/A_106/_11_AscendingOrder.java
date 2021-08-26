@@ -4,6 +4,10 @@ import java.util.Scanner;
 
 public class _11_AscendingOrder {
     public static void main(String[] args) {
+        /**
+         * Program : 11
+         * Elements of the array in sorted ascending order:
+         */
         int[] arrayNum = new int[50];
         int temp, inputNum, i;
         Scanner sc = new Scanner(System.in);
