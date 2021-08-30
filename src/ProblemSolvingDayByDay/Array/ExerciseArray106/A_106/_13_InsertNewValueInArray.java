@@ -4,6 +4,9 @@ import java.util.Scanner;
 
 public class _13_InsertNewValueInArray {
     public static void main(String[] args) {
+        /**
+         * Insert new value in the array problem - 13
+         */
         int[] arrayNum = new int[50];
         int inputNum, position = 0;
         Scanner sc = new Scanner(System.in);

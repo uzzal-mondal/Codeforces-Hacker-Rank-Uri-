@@ -4,8 +4,11 @@ import java.util.Scanner;
 
 public class _13_InsertNewValue {
     public static void main(String[] args) {
+        /**
+         * Insert new value in the array problem - 13
+         */
         int[] array = new int[10];
-        int inputNum, i, pos, value;
+        int inputNum, i, position, value;
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter your array elements : ");
         inputNum = sc.nextInt();
@@ -23,7 +26,7 @@ public class _13_InsertNewValue {
 
         /*-------position and value----------*/
         System.out.println("\nEnter your input pos : ");
-        pos = sc.nextInt();
+        position = sc.nextInt();
         System.out.println("Enter your input value : ");
         value = sc.nextInt();
 
@@ -33,13 +36,13 @@ public class _13_InsertNewValue {
          * Elements of 5 then when a loop run element - 1 .
          * when a position select then position - 1;
          */
-        for (i = inputNum - 1; i >= pos - 1; i--) {
+        for (i = inputNum - 1; i >= position - 1; i--) {
             /**
              * if the 3 index is store to 4 index then index num 3 is empty.
              */
             array[i + 1] = array[i];
         }
-        array[pos] = value;
+        array[position] = value;
 
         for (i = 0; i < inputNum + 1; i++) {
             System.out.printf("%d ", array[i]);

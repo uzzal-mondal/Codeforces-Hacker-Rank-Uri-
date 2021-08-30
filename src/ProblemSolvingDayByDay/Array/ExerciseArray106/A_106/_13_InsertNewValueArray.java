@@ -5,9 +5,9 @@ import java.util.Scanner;
 public class _13_InsertNewValueArray {
     public static void main(String[] args) {
         /**
-         * Insert new value in array..
+         * Insert new value in the array problem - 13
          */
-        int inputNum, temp, p = 0;
+        int inputNum, temp, position = 0;
         int[] arrayNum = new int[50];
         Scanner sc = new Scanner(System.in);
         System.out.print("Input the size of array : ");
@@ -51,15 +51,15 @@ public class _13_InsertNewValueArray {
 
         for (int i = 0; i < inputNum; i++) {
             if (valueInsert < arrayNum[i]) {
-                p = i;
+                position = i;
                 break;
             }
         }
         /* move all data at right side of the array */
-        for (int i = inputNum; i >= p; i--) {
+        for (int i = inputNum; i >= position; i--) {
             arrayNum[i] = arrayNum[i - 1];
             /*insert value of the proper position*/
-            arrayNum[p] = valueInsert;
+            arrayNum[position] = valueInsert;
         }
 
 

@@ -29,10 +29,8 @@ public class LinearSearch {
 
         if (found != 0) {
             System.out.println("data is found : " + searchNum + "\nposition of index : " + i);
-
         } else {
             System.out.println("Data is not found : " + searchNum + "\nposition of index : " + i);
         }
-
     }
 }
