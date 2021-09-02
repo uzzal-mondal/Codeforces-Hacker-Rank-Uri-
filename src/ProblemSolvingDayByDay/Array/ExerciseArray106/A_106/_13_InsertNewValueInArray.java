@@ -38,6 +38,7 @@ public class _13_InsertNewValueInArray {
             }
         }
 
+
         /* move all data at right side of the array */
         for (int i = inputNum; i >= position; i--) {
             arrayNum[i] = arrayNum[i - 1];

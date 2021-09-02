@@ -2,7 +2,7 @@ package ProblemSolvingDayByDay.Array.ExerciseArray106.A_106;
 
 import java.util.Scanner;
 
-public class _13_InsertNew_value {
+public class _13_InsertNewValueArrayBest {
     public static void main(String[] args) {
         /**
          * Insert new value in the array problem - 13
