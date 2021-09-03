@@ -12,18 +12,20 @@ public class DeleteElementArray {
         if (position > testNum) {
             System.out.println("sorry ! position num is higher from your input num");
         } else {
+            int i, j, element = 0;
 
+            /**
+             * find the position & find the elements...
+             */
+            System.out.printf("delete position - %d\nelements of - %d", position, arrayNum[position - 1]);
 
-            int i, element = 0;
             /**
              * delete element of the array..
              */
-            int elements = arrayNum[position - 1];
             for (i = position - 1; i < testNum - 1; i++) {
                 arrayNum[i] = arrayNum[i + 1];
             }
 
-            System.out.printf("delete position - %d\nelements of - %d", position, elements);
 
             /**
              * one elements are delete...
