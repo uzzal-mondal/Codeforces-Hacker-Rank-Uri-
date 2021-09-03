@@ -25,12 +25,12 @@ public class _15_DeleteElementArray {
         /**
          * delete element of array ...
          */
-        for (int i = position - 1; i < testNum - 2; i++) {
+        for (int i = position - 1; i < testNum - 1; i++) {
             arrayNum[i] = arrayNum[i + 1];
         }
 
 
-        for (int i = 0; i < testNum; i++) {
+        for (int i = 0; i < testNum - 1; i++) {
             System.out.printf("%d ", arrayNum[i]);
         }
     }
