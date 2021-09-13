@@ -2,6 +2,10 @@ package ProblemSolvingDayByDay.Array.ExerciseArray106.A_106;
 
 import java.util.Scanner;
 
+/**
+ * sum of all elements of the array
+ */
+
 public class _3_SumOfElementsArray {
     public static void main(String[] args) {
 

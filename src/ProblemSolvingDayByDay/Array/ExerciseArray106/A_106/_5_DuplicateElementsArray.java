@@ -2,6 +2,10 @@ package ProblemSolvingDayByDay.Array.ExerciseArray106.A_106;
 
 import java.util.Scanner;
 
+/**
+ * C to count a total number of duplicate elements in an array.
+ */
+
 public class _5_DuplicateElementsArray {
     public static void main(String[] args) {
 
@@ -23,14 +27,21 @@ public class _5_DuplicateElementsArray {
             System.out.printf("%d ", numOfArray[i]);
         }
 
-        //duplicate elements in array
-        // System.out.println("\nDuplicate elements in array : ");
+        /*todo: duplicate elements in array*/
+        /**
+         *  System.out.println("\nDuplicate elements in array : ");
+         */
+
+        System.out.println("\nTotal number of duplicate elements found in array : ");
+        int count = 0;
         for (int i = 0; i < num; i++) {
             for (int j = i + 1; j < num; j++) {
                 if (numOfArray[i] == numOfArray[j]) {
-                    System.out.println("Total number of duplicate elements found in array : " + numOfArray[j]);
+                    System.out.printf("%d ", numOfArray[j]);
+                    count++;
                 }
             }
         }
+        System.out.println("\nTotal count of duplicate elements : "+count);
     }
 }

@@ -2,6 +2,10 @@ package ProblemSolvingDayByDay.Array.ExerciseArray106.A_106;
 
 import java.util.Scanner;
 
+/**
+ * array and display it in reverse order.
+ */
+
 public class _2_ArrayReverse {
     public static void main(String[] args) {
         int inputNum;

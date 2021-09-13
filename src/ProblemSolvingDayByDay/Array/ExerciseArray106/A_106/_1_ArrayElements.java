@@ -2,6 +2,10 @@ package ProblemSolvingDayByDay.Array.ExerciseArray106.A_106;
 
 import java.util.Scanner;
 
+/**
+ * C to store elements in an array and print it....
+ */
+
 public class _1_ArrayElements {
     public static void main(String[] args) {
         int[] numOfArray = new int[10];

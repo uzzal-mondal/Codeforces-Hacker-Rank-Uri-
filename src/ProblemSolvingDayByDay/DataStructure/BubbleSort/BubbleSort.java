@@ -7,6 +7,7 @@ public class BubbleSort {
     public void showBubbleShort(int[] arrayNum, int inputNum) {
         int i, j, temp;
         boolean swapped;
+
         /*----------------Descending order ----------------*/
         for (i = 0; i < inputNum - 1; i++) {
             swapped = false;

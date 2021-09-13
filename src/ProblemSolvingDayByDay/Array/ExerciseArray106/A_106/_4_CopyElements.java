@@ -2,6 +2,10 @@ package ProblemSolvingDayByDay.Array.ExerciseArray106.A_106;
 
 import java.util.Scanner;
 
+/**
+ * C to copy the elements of one array into another array
+ */
+
 public class _4_CopyElements {
     public static void main(String[] args) {
         //todo: copy elements to another array..:)

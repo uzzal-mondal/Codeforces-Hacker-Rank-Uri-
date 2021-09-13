@@ -2,6 +2,10 @@ package ProblemSolvingDayByDay.Array.ExerciseArray106.A_106;
 
 import java.util.Scanner;
 
+/**
+ * C to print all unique elements in an array.
+ */
+
 public class _6_UniQueElements {
     public static void main(String[] args) {
 
