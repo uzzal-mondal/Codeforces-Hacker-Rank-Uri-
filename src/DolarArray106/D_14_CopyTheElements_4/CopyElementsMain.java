@@ -1,6 +1,10 @@
-package DolarArray106.D_15_CopyTheElements_4;
+package DolarArray106.D_14_CopyTheElements_4;
 
 import java.util.Scanner;
+
+/**
+ * C to copy the elements of one array into another array
+ */
 
 public class CopyElementsMain {
     public static void main(String[] args) {
@@ -9,7 +13,7 @@ public class CopyElementsMain {
         Scanner sc = new Scanner(System.in);
         System.out.println("test data : ");
         testData = sc.nextInt();
-        System.out.printf("Input of elements in array :%d\n", testData);
+        System.out.printf("Input of elements in array : %d\n", testData);
 
         /**
          * from user elements..

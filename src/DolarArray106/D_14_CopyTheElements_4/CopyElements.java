@@ -1,5 +1,8 @@
-package DolarArray106.D_15_CopyTheElements_4;
+package DolarArray106.D_14_CopyTheElements_4;
 
+/**
+ * C to copy the elements of one array into another array
+ */
 public class CopyElements {
 
     public void showCopyElements(int[] arrayNum, int testData) {
