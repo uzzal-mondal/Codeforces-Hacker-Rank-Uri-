@@ -2,6 +2,10 @@ package ProblemSolvingDayByDay.Array.ExerciseArray106.A_106;
 
 import java.util.Scanner;
 
+/**
+ * C to merge two arrays of same size sorted in descending order.
+ */
+
 public class _7_BestArrayMargeDescending {
     public static void main(String[] args) {
         int[] array1 = new int[50];
@@ -48,7 +52,6 @@ public class _7_BestArrayMargeDescending {
                     temp = arrayMarge[i + 1];
                     arrayMarge[i + 1] = arrayMarge[i];
                     arrayMarge[i] = temp;
-
                 }
             }
         }
@@ -72,6 +75,5 @@ public class _7_BestArrayMargeDescending {
                 System.out.printf("%d ", arrayMarge[i]);
             }
         }
-
     }
 }

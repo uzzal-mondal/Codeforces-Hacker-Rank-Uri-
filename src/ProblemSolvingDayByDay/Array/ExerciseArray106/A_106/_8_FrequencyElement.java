@@ -20,6 +20,9 @@ public class _8_FrequencyElement {
             array1[i] = sc.nextInt();
         }
 
+        /**
+         *  I face the problem here....
+         */
         System.out.println("The frequency of all elements of an array : ");
         for (i = 0; i < inputNum; i++) {
             for (j = 0; j < inputNum; j++) {
@@ -27,10 +30,9 @@ public class _8_FrequencyElement {
                     count++;
                 }
             }
-            if (count != 0) {
-                System.out.printf("%d occurs %d times\n", array1[i], count);
-            }
-            count = 0;
+        }
+        if (count != 0) {
+            System.out.printf("%d occurs %d times\n", array1[i], count);
         }
     }
 }
