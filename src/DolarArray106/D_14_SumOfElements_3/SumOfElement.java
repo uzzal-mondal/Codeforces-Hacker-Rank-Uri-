@@ -1,6 +1,9 @@
 package DolarArray106.D_14_SumOfElements_3;
 
 public class SumOfElement {
+    /**
+     * C to find the sum of all elements of the array
+     */
 
     public int showSumOfElements(int[] arrayNum, int testNum) {
         int i, sum = 0;

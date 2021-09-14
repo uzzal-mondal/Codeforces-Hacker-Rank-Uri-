@@ -2,9 +2,11 @@ package DolarArray106.D_14_SumOfElements_3;
 
 import java.util.Scanner;
 
+/**
+ * C to find the sum of all elements of the array
+ */
 public class SumOfElementMain {
     public static void main(String[] args) {
-
         int testData;
         int[] arrayNum = new int[10];
         Scanner sc = new Scanner(System.in);
