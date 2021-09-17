@@ -25,7 +25,7 @@ public class _8_FrequencyElement {
          */
         System.out.println("The frequency of all elements of an array : ");
         for (i = 0; i < inputNum; i++) {
-            for (j = 0; j < inputNum; j++) {
+            for (j = i + 1; j < inputNum; j++) {
                 if (array1[i] == array1[j]) {
                     count++;
                 }
