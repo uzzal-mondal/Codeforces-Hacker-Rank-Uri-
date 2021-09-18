@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 /**
  * C to count the frequency of each element of an array
- * https://www.geeksforgeeks.org/counting-frequencies-of-array-elements/
+ * https://www.w3resource.com/c-programming-exercises/array/c-array-exercise-8.php
  */
 public class FrequncyMain {
     public static void main(String[] args) {
@@ -23,7 +23,8 @@ public class FrequncyMain {
         for (i = 0; i < testNum; i++) {
             System.out.printf("elements [%d] : ", i);
             arrayNum[i] = sc.nextInt();
-            freeQuency[i] = -1;
+            freeQuency[i] = -1; // -1
+           // System.out.printf("FQ : %d \n", freeQuency[i]);
         }
 
        /* Frequency f = new Frequency();
@@ -35,10 +36,12 @@ public class FrequncyMain {
                 if (arrayNum[i] == arrayNum[j]) {
                     count++;
                     freeQuency[j] = 0;
+                    //System.out.printf("fq %d : \n",freeQuency[j]);
                 }
             }
             if (freeQuency[i] != 0) {
-                freeQuency[i] = count;
+                freeQuency[i] = count; // f =  2
+                //System.out.printf(" f = %d \n",freeQuency[i]);
             }
         }
 
