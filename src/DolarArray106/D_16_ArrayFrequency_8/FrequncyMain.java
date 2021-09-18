@@ -24,7 +24,7 @@ public class FrequncyMain {
             System.out.printf("elements [%d] : ", i);
             arrayNum[i] = sc.nextInt();
             freeQuency[i] = -1; // -1
-           // System.out.printf("FQ : %d \n", freeQuency[i]);
+            System.out.printf("FQ : %d \n", freeQuency[i]);
         }
 
        /* Frequency f = new Frequency();
@@ -36,12 +36,13 @@ public class FrequncyMain {
                 if (arrayNum[i] == arrayNum[j]) {
                     count++;
                     freeQuency[j] = 0;
-                    //System.out.printf("fq %d : \n",freeQuency[j]);
+                    System.out.printf("SQ %d : \n",freeQuency[j]);
                 }
             }
+            System.out.printf("i = %d :  TQ = %d \n", i, freeQuency[i]);
             if (freeQuency[i] != 0) {
                 freeQuency[i] = count; // f =  2
-                //System.out.printf(" f = %d \n",freeQuency[i]);
+                System.out.printf(" LastQ = %d \n",freeQuency[i]);
             }
         }
 
