@@ -1,4 +1,4 @@
-package DolarArray106.D_19_OddAndEven;
+package DolarArray106.D_19_OddAndEven_10;
 
 import java.util.Scanner;
 
