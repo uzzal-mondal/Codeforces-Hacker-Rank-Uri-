@@ -8,8 +8,8 @@ import java.util.Scanner;
 public class InsertValueMain {
     public static void main(String[] args) {
 
-        int testData, i, insertValue, pos;
-        int[] arrayNum = new int[10];
+        int testData, i, insertValue, pos = 0;
+        int[] arrayNum = new int[50];
 
         System.out.println("Test data");
         Scanner sc = new Scanner(System.in);
@@ -26,9 +26,19 @@ public class InsertValueMain {
 
         System.out.print("please your inset value : ");
         insertValue = sc.nextInt();
-        System.out.print("Which position ? : ");
-        pos = sc.nextInt();
+       /* System.out.print("Which position ? : ");
+        pos = sc.nextInt();*/
 
+        /**
+         * determine the position where the new value inserted.
+         * ascending ordering...
+         */
+        for (i = 0; i < testData; i++) {
+            if (insertValue < arrayNum[i]) {
+                pos = i;
+                break;
+            }
+        }
 
         /**
          * using loop cause of
@@ -40,12 +50,10 @@ public class InsertValueMain {
         /**
          * including the insert value of my position...
          */
-        arrayNum[pos - 1] = insertValue;
+        arrayNum[pos] = insertValue;
 
         for (i = 0; i < testData + 1; i++) {
             System.out.printf(" %d", arrayNum[i]);
         }
-
-
     }
 }
