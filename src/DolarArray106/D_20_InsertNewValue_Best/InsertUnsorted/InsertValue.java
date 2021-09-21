@@ -1,4 +1,4 @@
-package DolarArray106.D_20_InsertNewValue_Best;
+package DolarArray106.D_20_InsertNewValue_Best.InsertUnsorted;
 
 public class InsertValue {
 
