@@ -23,6 +23,9 @@ public class DeleteElementMain {
         int delPos = sc.nextInt();
         // System.out.printf(" %d \n", delPos);
 
+        DeleteElement del = new DeleteElement();
+        del.showDeleteElement(arrayNum, sizeInput, delPos);
+
 
         /*
          * delete position in an array..
@@ -34,17 +37,17 @@ public class DeleteElementMain {
          *  so, last element is (size - 1.)
          *  also, last element is (fill - 0) so, i am using (size - 2).
          */
-        for (int d = delPos - 1; d <= sizeInput - 2; d++) {
+       /* for (int d = delPos - 1; d <= sizeInput - 2; d++) {
             arrayNum[d] = arrayNum[d + 1];
         }
 
         arrayNum[sizeInput - 1] = 0;
 
-        /*
+        *//*
          * array are print..
-         */
+         *//*
         for (int i = 0; i < sizeInput - 1; i++) {
             System.out.printf("%d ", arrayNum[i]);
-        }
+        }*/
     }
 }
