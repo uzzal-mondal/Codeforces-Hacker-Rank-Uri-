@@ -24,7 +24,6 @@ public class InsertValue {
         arrayNum[position - 1] = insertValue;
 
 
-
         /**
          * print the loop..
          * cause of new value insert using to (size + 1)

@@ -2,6 +2,11 @@ package DolarArray106.D_21_DeleteElement_15;
 
 import java.util.Scanner;
 
+/**
+ * https://www.youtube.com/watch?v=uemAVFC_4bw&t=282s
+ * Delete element in an array...
+ */
+
 public class DeleteElementMain {
     public static void main(String[] args) {
 

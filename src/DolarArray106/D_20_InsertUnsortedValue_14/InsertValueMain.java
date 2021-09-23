@@ -2,6 +2,11 @@ package DolarArray106.D_20_InsertUnsortedValue_14;
 
 import java.util.Scanner;
 
+/**
+ * https://www.youtube.com/watch?v=vcN53c5_58U&t=204s
+ * Insert value in an array...
+ */
+
 public class InsertValueMain {
     public static void main(String[] args) {
 

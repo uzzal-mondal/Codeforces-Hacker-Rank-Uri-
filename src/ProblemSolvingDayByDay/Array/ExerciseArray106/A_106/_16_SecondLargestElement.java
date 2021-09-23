@@ -16,12 +16,12 @@ public class _16_SecondLargestElement {
             arrayNum[i] = sc.nextInt();
         }
 
-        /*   *//**
+        /**
          * must be need array sorted using by bubble sort.
          * bubble sort algo working for number of iteration..
          * first loop for iteration.(n-1)
          * second loop for comparison.(n - 1 - i);
-         *//*
+         */
 
         //arrange in Ascending order...
         for (i = 0; i < testNum - 1; i++) {
@@ -35,7 +35,7 @@ public class _16_SecondLargestElement {
         }
 
 
-        *//**
+        /**
          * print of array.
          */
         System.out.println("Sorted array : ");
@@ -50,39 +50,34 @@ public class _16_SecondLargestElement {
         max = arrayNum[0];
         for (i = 0; i < testNum; i++) {
             if (arrayNum[i] > max) {
-                secondMax = max;
                 max = arrayNum[i];
+                secondMax = max;
             }
         }
 
-        System.out.printf("\ni:  %d , secondMax %d\n", i, secondMax);
+
+        System.out.printf("\ni: %d , secondMax: %d\n", i, secondMax);
         System.out.printf("largest num : %d ", max);
 
-        /**
-         * Ignore the largest element and find the second largest element in the arary
-         */
+
+        // Ignore the largest element and find the second largest element in the arary
         //System.out.println("\nSecond largest number in array : ");
-        System.out.println("Array num " + arrayNum[i]);
-        System.out.println("Max " + max);
-        System.out.println("second max : " + secondMax);
+        System.out.println("\nArray num: " + arrayNum[i]); // 0
+        System.out.println("Max: " + max); // 12
+        System.out.println("second max: " + secondMax); // 1
+
+        // 12 ,  3  ,  6  , 5  , 4
+
+          /*
 
         if (arrayNum[i] < max && arrayNum[i] > secondMax) {
             secondMax = arrayNum[secondMax];
         }
         System.out.println("Second large : " + secondMax);
 
+        */
 
-        /*int secondLarge = 0;
-        for (i = 0; i < testNum; i++) {
-            if (i == secondMax) {
-                i++;
-                i--;
-            } else {
-                if (secondLarge < arrayNum[i]) {
-                    secondLarge = arrayNum[i];
-                }
-            }
-        }*/
 
     }
+
 }
