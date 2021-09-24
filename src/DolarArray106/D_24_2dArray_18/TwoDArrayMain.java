@@ -1,6 +1,10 @@
-package DolarArray106.D_24_TwoDArray_18;
+package DolarArray106.D_24_2dArray_18;
 
 import java.util.Scanner;
+
+/**
+ * C for a 2D array of size
+ */
 
 public class TwoDArrayMain {
     public static void main(String[] args) {
@@ -16,17 +20,15 @@ public class TwoDArrayMain {
             }
         }
 
-        /**
+        /*
          *  2d array print the matrix....
          */
 
         for (int i = 0; i < totalInput; i++) {
             for (int j = 0; j < totalInput; j++) {
-                System.out.printf("%d ",twoDArray[i][j]);
+                System.out.printf("%d ", twoDArray[i][j]);
             }
             System.out.println();
         }
-
-
     }
 }
