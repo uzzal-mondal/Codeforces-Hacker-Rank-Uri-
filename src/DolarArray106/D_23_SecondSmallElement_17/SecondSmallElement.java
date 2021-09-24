@@ -12,7 +12,6 @@ public class SecondSmallElement {
                     arrayNum[j] = temp;
                 }
             }
-
             System.out.printf("%d  ", arrayNum[i]);
         }
         return arrayNum[totalNum - 2];

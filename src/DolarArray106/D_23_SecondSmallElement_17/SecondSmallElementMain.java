@@ -16,9 +16,6 @@ public class SecondSmallElementMain {
             arrayNum[i] = sc.nextInt();
         }
 
-        /*for (i = 0; i < totalNum; i++) {
-            System.out.printf("%d ", arrayNum[i]);
-        }*/
 
         SecondSmallElement s = new SecondSmallElement();
         int res = s.showSmallElement(arrayNum, totalNum);
