@@ -1,4 +1,4 @@
-package DolarArray106.D_22_SecondLargest;
+package DolarArray106.D_22_SecondLargest_16;
 
 import java.util.Scanner;
 
